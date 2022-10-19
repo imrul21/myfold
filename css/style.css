@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+nav{
+    background-color: #02918b;
+}
+nav .container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .logo{
+    width: 20%; 
+}
+nav .logo img{
+    display: block;
+    
+}
+nav .menu{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li a {
+    font-size: 12px;
+    font-weight: 800px;
+    padding: 26px 25px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 0.7s;
+}
+    nav ul li:hover a{
+        background-color: black;
+        transition: 0.7s;
+    }
+    #banner{
+        background: url(../img/MYFOLIOO.jpg);
+        height: 728px;
+        background-size: cover;
+        background-position: center;  
+        position: relative;
+        z-index: 1;
+    }
+    #banner .container{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #banner::after{
+        content:'' ;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        opacity: 0.66;
+        z-index: -1;
+    }
+
+    #banner .banner_content{
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        
+    }
+    #banner h3{
+        font-size: 30px;
+        font-weight: 400px;
+        
+    }
+    #banner h1{
+        font-size: 68px;
+        font-weight: 800px;
+        
+        text-transform: uppercase;
+        letter-spacing: 30px;
+    }
+    #banner p{
+        font-size: 18px;
+        font-weight: 400px;
+        
+    }
+    #banner img{
+        
+        display: block;
+        margin: 50px auto;
+    }
+    #banner a{
+        font-size: 14px;
+        font-weight: 800px;
+       color: #0b1016;
+       text-transform: uppercase;
+       background: #cfc91d;
+       padding: 19px 42px;
+       display: inline-block;
+    }
+
+    
+ 
